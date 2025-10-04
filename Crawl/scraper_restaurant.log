@@ -1,0 +1,628 @@
+2025-10-03 13:55:46,138 - INFO - Bắt đầu crawl: 2025-10-03 13:55:46
+2025-10-03 13:55:46,139 - INFO - ====== WebDriver manager ======
+2025-10-03 13:55:47,383 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-03 13:55:47,644 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-03 13:55:47,824 - INFO - Driver [C:\Users\acer\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-03 13:55:49,150 - INFO - Thiết lập trình duyệt thành công.
+2025-10-03 13:55:51,688 - INFO - File CSV restaurants.csv đã tồn tại.
+2025-10-03 13:55:51,720 - INFO - Bắt đầu cuộn để tải thêm nhà hàng...
+2025-10-03 13:55:51,752 - INFO - Tìm thấy 6 nhà hàng (mới: 6)
+2025-10-03 13:55:53,868 - INFO - Đã cuộn và tìm thấy thêm dữ liệu!
+2025-10-03 13:55:53,947 - INFO - Tìm thấy 12 nhà hàng (mới: 6)
+2025-10-03 13:55:55,969 - INFO - Đã cuộn và tìm thấy thêm dữ liệu!
+2025-10-03 13:55:55,976 - INFO - Tìm thấy 18 nhà hàng (mới: 6)
+2025-10-03 13:55:58,068 - INFO - Đã cuộn và tìm thấy thêm dữ liệu!
+2025-10-03 13:55:58,068 - INFO - Tìm thấy 20 nhà hàng (mới: 2)
+2025-10-03 13:56:00,249 - INFO - Đã cuộn và tìm thấy thêm dữ liệu!
+2025-10-03 13:56:00,256 - INFO - Tìm thấy 26 nhà hàng (mới: 6)
+2025-10-03 13:56:02,286 - INFO - Đã cuộn và tìm thấy thêm dữ liệu!
+2025-10-03 13:56:02,299 - INFO - Tìm thấy 32 nhà hàng (mới: 6)
+2025-10-03 13:56:04,342 - INFO - Đã cuộn và tìm thấy thêm dữ liệu!
+2025-10-03 13:56:04,353 - INFO - Tìm thấy 38 nhà hàng (mới: 6)
+2025-10-03 13:56:06,411 - INFO - Đã cuộn và tìm thấy thêm dữ liệu!
+2025-10-03 13:56:06,463 - INFO - Tìm thấy 42 nhà hàng (mới: 4)
+2025-10-03 13:56:08,756 - INFO - Đã cuộn và tìm thấy thêm dữ liệu!
+2025-10-03 13:56:08,869 - INFO - Tìm thấy 48 nhà hàng (mới: 6)
+2025-10-03 13:56:10,947 - INFO - Đã cuộn và tìm thấy thêm dữ liệu!
+2025-10-03 13:56:10,958 - INFO - Tìm thấy 54 nhà hàng (mới: 6)
+2025-10-03 13:56:12,993 - INFO - Đã cuộn và tìm thấy thêm dữ liệu!
+2025-10-03 13:56:12,995 - INFO - Tìm thấy 60 nhà hàng (mới: 6)
+2025-10-03 13:56:15,077 - INFO - Đã cuộn và tìm thấy thêm dữ liệu!
+2025-10-03 13:56:15,087 - INFO - Tìm thấy 62 nhà hàng (mới: 2)
+2025-10-03 13:56:17,325 - INFO - Đã cuộn và tìm thấy thêm dữ liệu!
+2025-10-03 13:56:17,387 - INFO - Tìm thấy 68 nhà hàng (mới: 6)
+2025-10-03 13:56:19,510 - INFO - Đã cuộn và tìm thấy thêm dữ liệu!
+2025-10-03 13:56:19,519 - INFO - Tìm thấy 74 nhà hàng (mới: 6)
+2025-10-03 13:56:21,550 - INFO - Đã cuộn và tìm thấy thêm dữ liệu!
+2025-10-03 13:56:21,561 - INFO - Tìm thấy 80 nhà hàng (mới: 6)
+2025-10-03 13:56:23,603 - INFO - Đã cuộn và tìm thấy thêm dữ liệu!
+2025-10-03 13:56:23,613 - INFO - Tìm thấy 82 nhà hàng (mới: 2)
+2025-10-03 13:56:26,002 - INFO - Đã cuộn và tìm thấy thêm dữ liệu!
+2025-10-03 13:56:26,135 - INFO - Tìm thấy 88 nhà hàng (mới: 6)
+2025-10-03 13:56:28,355 - INFO - Đã cuộn và tìm thấy thêm dữ liệu!
+2025-10-03 13:56:28,375 - INFO - Tìm thấy 94 nhà hàng (mới: 6)
+2025-10-03 13:56:30,406 - INFO - Không tìm thấy dữ liệu mới: 1/5
+2025-10-03 13:56:30,414 - INFO - Tìm thấy 94 nhà hàng (mới: 0)
+2025-10-03 13:56:32,451 - INFO - Không tìm thấy dữ liệu mới: 2/5
+2025-10-03 13:56:32,470 - INFO - Tìm thấy 94 nhà hàng (mới: 0)
+2025-10-03 13:56:34,521 - INFO - Không tìm thấy dữ liệu mới: 3/5
+2025-10-03 13:56:34,538 - INFO - Tìm thấy 94 nhà hàng (mới: 0)
+2025-10-03 13:56:36,561 - INFO - Không tìm thấy dữ liệu mới: 4/5
+2025-10-03 13:56:36,576 - INFO - Tìm thấy 94 nhà hàng (mới: 0)
+2025-10-03 13:56:38,595 - INFO - Không tìm thấy dữ liệu mới: 5/5
+2025-10-03 13:56:38,595 - INFO - Hoàn thành cuộn! Tìm thấy tổng cộng 94 nhà hàng.
+2025-10-03 13:56:38,595 - INFO - Lưu danh sách link vào CSV...
+2025-10-03 13:56:41,319 - INFO - Tìm thấy 94 nhà hàng (sau khi lọc blacklist).
+2025-10-03 13:56:41,352 - INFO - Đã thêm 3 nhà hàng mới vào restaurants.csv
+2025-10-03 13:56:41,354 - INFO - Bắt đầu cập nhật chi tiết và đặc điểm nhà hàng...
+2025-10-03 13:56:41,379 - INFO - Scraping 1/161: Ăn Thôi Restaurant
+2025-10-03 13:56:44,292 - INFO - Click thành công.
+2025-10-03 13:56:47,200 - INFO - Cập nhật thay đổi cho nhà hàng: Ăn Thôi Restaurant
+2025-10-03 13:56:47,200 - INFO - Scraping 2/161: Nhà hàng NHÀ BẾP CHỢ HÀN
+2025-10-03 13:56:50,244 - INFO - Click thành công.
+2025-10-03 13:56:51,837 - INFO - Cập nhật thay đổi cho nhà hàng: Nhà hàng NHÀ BẾP CHỢ HÀN
+2025-10-03 13:56:51,837 - INFO - Scraping 3/161: Bistecca Italian Restaurant in Da Nang
+2025-10-03 13:56:53,389 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 13:57:03,922 - INFO - Click thành công.
+2025-10-03 13:57:05,066 - INFO - Cập nhật thay đổi cho nhà hàng: Bistecca Italian Restaurant in Da Nang
+2025-10-03 13:57:05,066 - INFO - Scraping 4/161: Gypsy Rooftop Restaurant & Bar
+2025-10-03 13:57:17,156 - INFO - Click thành công.
+2025-10-03 13:57:18,757 - INFO - Cập nhật thay đổi cho nhà hàng: Gypsy Rooftop Restaurant & Bar
+2025-10-03 13:57:18,768 - INFO - Scraping 5/161: La Cabaña
+2025-10-03 13:57:20,237 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 13:57:40,956 - INFO - Click thành công.
+2025-10-03 13:57:42,212 - INFO - Cập nhật thay đổi cho nhà hàng: La Cabaña
+2025-10-03 13:57:42,212 - INFO - Scraping 6/161: Bếp Cuốn Đà Nẵng
+2025-10-03 13:57:44,934 - INFO - Click thành công.
+2025-10-03 13:57:47,063 - INFO - Cập nhật thay đổi cho nhà hàng: Bếp Cuốn Đà Nẵng
+2025-10-03 13:57:47,063 - INFO - Scraping 7/161: Thìa Gỗ Restaurant Da Nang
+2025-10-03 13:57:49,831 - INFO - Click thành công.
+2025-10-03 13:57:51,875 - INFO - Cập nhật thay đổi cho nhà hàng: Thìa Gỗ Restaurant Da Nang
+2025-10-03 13:57:51,875 - INFO - Scraping 8/161: Cô Ba Phở bò
+2025-10-03 13:57:54,895 - INFO - Click thành công.
+2025-10-03 13:57:56,946 - INFO - Cập nhật thay đổi cho nhà hàng: Cô Ba Phở bò
+2025-10-03 13:57:56,946 - INFO - Scraping 9/161: Nhà Gỗ Restaurant Da Nang
+2025-10-03 13:57:59,750 - INFO - Click thành công.
+2025-10-03 13:58:01,566 - INFO - Cập nhật thay đổi cho nhà hàng: Nhà Gỗ Restaurant Da Nang
+2025-10-03 13:58:01,566 - INFO - Scraping 10/161: Bếp Hên
+2025-10-03 13:58:04,746 - INFO - Click thành công.
+2025-10-03 13:58:06,570 - INFO - Cập nhật thay đổi cho nhà hàng: Bếp Hên
+2025-10-03 13:58:06,570 - INFO - Đã xử lý 10/161 nhà hàng...
+2025-10-03 13:58:06,570 - INFO - Scraping 11/161: Sky View Restaurant
+2025-10-03 13:58:07,880 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 13:58:09,406 - INFO - Click thành công.
+2025-10-03 13:58:11,141 - INFO - Cập nhật thay đổi cho nhà hàng: Sky View Restaurant
+2025-10-03 13:58:11,141 - INFO - Scraping 12/161: MAAZI Da Nang
+2025-10-03 13:58:15,680 - INFO - Click thành công.
+2025-10-03 13:58:17,521 - INFO - Cập nhật thay đổi cho nhà hàng: MAAZI Da Nang
+2025-10-03 13:58:17,531 - INFO - Scraping 13/161: Cabanon Palace
+2025-10-03 13:58:29,745 - INFO - Click thành công.
+2025-10-03 13:58:31,107 - INFO - Cập nhật thay đổi cho nhà hàng: Cabanon Palace
+2025-10-03 13:58:31,107 - INFO - Scraping 14/161: Red Sky Steakhouse
+2025-10-03 13:58:34,490 - INFO - Click thành công.
+2025-10-03 13:58:36,624 - INFO - Không có thay đổi cho nhà hàng: Red Sky Steakhouse
+2025-10-03 13:58:36,624 - INFO - Scraping 15/161: My Casa
+2025-10-03 13:58:37,998 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 13:58:39,397 - INFO - Click thành công.
+2025-10-03 13:58:41,300 - INFO - Cập nhật thay đổi cho nhà hàng: My Casa
+2025-10-03 13:58:41,300 - INFO - Scraping 16/161: Fatfish
+2025-10-03 13:58:44,887 - INFO - Click thành công.
+2025-10-03 13:58:46,919 - INFO - Cập nhật thay đổi cho nhà hàng: Fatfish
+2025-10-03 13:58:46,919 - INFO - Scraping 17/161: Le Comptoir
+2025-10-03 13:58:49,879 - INFO - Click thành công.
+2025-10-03 13:58:52,521 - INFO - Cập nhật thay đổi cho nhà hàng: Le Comptoir
+2025-10-03 13:58:52,521 - INFO - Scraping 18/161: The View - Yacht Restaurant Da Nang
+2025-10-03 13:58:54,737 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 13:58:56,047 - INFO - Click thành công.
+2025-10-03 13:58:58,098 - INFO - Cập nhật thay đổi cho nhà hàng: The View - Yacht Restaurant Da Nang
+2025-10-03 13:58:58,098 - INFO - Scraping 19/161: Nhà Hàng Si Dining
+2025-10-03 13:59:10,252 - INFO - Click thành công.
+2025-10-03 13:59:11,530 - INFO - Cập nhật thay đổi cho nhà hàng: Nhà Hàng Si Dining
+2025-10-03 13:59:11,530 - INFO - Scraping 20/161: L'Italiano Restaurant Danang
+2025-10-03 13:59:14,800 - INFO - Click thành công.
+2025-10-03 13:59:16,266 - INFO - Không có thay đổi cho nhà hàng: L'Italiano Restaurant Danang
+2025-10-03 13:59:16,266 - INFO - Đã xử lý 20/161 nhà hàng...
+2025-10-03 13:59:16,266 - INFO - Scraping 21/161: Roots Plant-Based Cafe - Healthy vegan restaurant
+2025-10-03 13:59:18,974 - INFO - Click thành công.
+2025-10-03 13:59:20,582 - INFO - Cập nhật thay đổi cho nhà hàng: Roots Plant-Based Cafe - Healthy vegan restaurant
+2025-10-03 13:59:20,582 - INFO - Scraping 22/161: BẾP KIM - 레스토랑 (Kim Restaurant and Coffee)
+2025-10-03 13:59:23,606 - INFO - Click thành công.
+2025-10-03 13:59:25,893 - INFO - Cập nhật thay đổi cho nhà hàng: BẾP KIM - 레스토랑 (Kim Restaurant and Coffee)
+2025-10-03 13:59:25,893 - INFO - Scraping 23/161: Nhà Hàng 3 Big - Nướng & Lẩu Hàn Quốc
+2025-10-03 13:59:28,502 - INFO - Click thành công.
+2025-10-03 13:59:30,478 - INFO - Cập nhật thay đổi cho nhà hàng: Nhà Hàng 3 Big - Nướng & Lẩu Hàn Quốc
+2025-10-03 13:59:30,478 - INFO - Scraping 24/161: All Seasons Buffet Da Nang
+2025-10-03 13:59:33,433 - INFO - Click thành công.
+2025-10-03 13:59:35,709 - INFO - Cập nhật thay đổi cho nhà hàng: All Seasons Buffet Da Nang
+2025-10-03 13:59:35,709 - INFO - Scraping 25/161: Indian Ganga Dining & Lounge Da Nang - Indian Restaurant
+2025-10-03 13:59:38,323 - INFO - Click thành công.
+2025-10-03 13:59:40,361 - INFO - Cập nhật thay đổi cho nhà hàng: Indian Ganga Dining & Lounge Da Nang - Indian Restaurant
+2025-10-03 13:59:40,361 - INFO - Scraping 26/161: Gujarat Indian Restaurant Da nang
+2025-10-03 13:59:43,583 - INFO - Click thành công.
+2025-10-03 13:59:45,844 - INFO - Cập nhật thay đổi cho nhà hàng: Gujarat Indian Restaurant Da nang
+2025-10-03 13:59:45,844 - INFO - Scraping 27/161: Hải sản Mộc quán Đà Nẵng
+2025-10-03 13:59:48,438 - INFO - Click thành công.
+2025-10-03 13:59:49,915 - INFO - Cập nhật thay đổi cho nhà hàng: Hải sản Mộc quán Đà Nẵng
+2025-10-03 13:59:49,916 - INFO - Scraping 28/161: 자갈집 Gravel House BBQ Restaurant Da Nang
+2025-10-03 13:59:51,523 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 13:59:52,777 - INFO - Click thành công.
+2025-10-03 13:59:54,800 - INFO - Cập nhật thay đổi cho nhà hàng: 자갈집 Gravel House BBQ Restaurant Da Nang
+2025-10-03 13:59:54,800 - INFO - Scraping 29/161: Quán Huế Ngon - 다낭최고의 로컬 BBQ 레스토랑- Best local food in Da Nang
+2025-10-03 13:59:58,141 - INFO - Click thành công.
+2025-10-03 13:59:59,671 - INFO - Không có thay đổi cho nhà hàng: Quán Huế Ngon - 다낭최고의 로컬 BBQ 레스토랑- Best local food in Da Nang
+2025-10-03 13:59:59,671 - INFO - Scraping 30/161: Burger House Da Nang(햄버거)
+2025-10-03 14:00:02,570 - INFO - Click thành công.
+2025-10-03 14:00:04,980 - INFO - Cập nhật thay đổi cho nhà hàng: Burger House Da Nang(햄버거)
+2025-10-03 14:00:04,980 - INFO - Đã xử lý 30/161 nhà hàng...
+2025-10-03 14:00:04,980 - INFO - Scraping 31/161: Limoncello
+2025-10-03 14:00:17,820 - INFO - Click thành công.
+2025-10-03 14:00:19,223 - INFO - Không có thay đổi cho nhà hàng: Limoncello
+2025-10-03 14:00:19,223 - INFO - Scraping 32/161: City High Dining
+2025-10-03 14:00:35,313 - INFO - Click thành công.
+2025-10-03 14:00:36,454 - INFO - Không có thay đổi cho nhà hàng: City High Dining
+2025-10-03 14:00:36,464 - INFO - Scraping 33/161: Sangha
+2025-10-03 14:00:44,113 - INFO - Click thành công.
+2025-10-03 14:00:45,139 - INFO - Cập nhật thay đổi cho nhà hàng: Sangha
+2025-10-03 14:00:45,139 - INFO - Scraping 34/161: My Quang Ba Mua
+2025-10-03 14:00:51,299 - INFO - Click thành công.
+2025-10-03 14:00:51,623 - INFO - Cập nhật thay đổi cho nhà hàng: My Quang Ba Mua
+2025-10-03 14:00:51,623 - INFO - Scraping 35/161: IVEGAN SUPERSHOP Đà Nẵng
+2025-10-03 14:00:55,124 - INFO - Click thành công.
+2025-10-03 14:00:56,574 - INFO - Không có thay đổi cho nhà hàng: IVEGAN SUPERSHOP Đà Nẵng
+2025-10-03 14:00:56,574 - INFO - Scraping 36/161: Vinh Hanh Hong Kong Style Restaurant
+2025-10-03 14:01:02,524 - INFO - Click thành công.
+2025-10-03 14:01:03,687 - INFO - Cập nhật thay đổi cho nhà hàng: Vinh Hanh Hong Kong Style Restaurant
+2025-10-03 14:01:03,687 - INFO - Scraping 37/161: Miss NHI
+2025-10-03 14:01:08,362 - INFO - Click thành công.
+2025-10-03 14:01:09,684 - INFO - Cập nhật thay đổi cho nhà hàng: Miss NHI
+2025-10-03 14:01:09,684 - INFO - Scraping 38/161: YALLA HALAL RESTAURANT (Arabic & Vietnamese & Seafood)
+2025-10-03 14:01:14,231 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:01:14,561 - INFO - Click thành công.
+2025-10-03 14:01:14,734 - INFO - Cập nhật thay đổi cho nhà hàng: YALLA HALAL RESTAURANT (Arabic & Vietnamese & Seafood)
+2025-10-03 14:01:14,734 - INFO - Scraping 39/161: Irini
+2025-10-03 14:01:17,047 - INFO - Click thành công.
+2025-10-03 14:01:18,056 - INFO - Không có thay đổi cho nhà hàng: Irini
+2025-10-03 14:01:18,056 - INFO - Scraping 40/161: UNDER THE SEA - Korean Bistro
+2025-10-03 14:01:19,394 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:01:20,040 - INFO - Click thành công.
+2025-10-03 14:01:20,675 - INFO - Không có thay đổi cho nhà hàng: UNDER THE SEA - Korean Bistro
+2025-10-03 14:01:20,675 - INFO - Đã xử lý 40/161 nhà hàng...
+2025-10-03 14:01:20,675 - INFO - Scraping 41/161: Bladi Da Nang
+2025-10-03 14:01:22,078 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:01:22,937 - INFO - Click thành công.
+2025-10-03 14:01:23,979 - INFO - Cập nhật thay đổi cho nhà hàng: Bladi Da Nang
+2025-10-03 14:01:23,979 - INFO - Scraping 42/161: Bánh mì Bà Lan
+2025-10-03 14:01:26,221 - INFO - Click thành công.
+2025-10-03 14:01:26,626 - INFO - Cập nhật thay đổi cho nhà hàng: Bánh mì Bà Lan
+2025-10-03 14:01:26,626 - INFO - Scraping 43/161: Mr. QUẾ Beef Pho Vietnamese Restaurant Da Nang
+2025-10-03 14:01:29,541 - INFO - Click thành công.
+2025-10-03 14:01:30,227 - INFO - Cập nhật thay đổi cho nhà hàng: Mr. QUẾ Beef Pho Vietnamese Restaurant Da Nang
+2025-10-03 14:01:30,227 - INFO - Scraping 44/161: Shamballa Vegetarian, Greenhouse & Rooftop Bar - Da Nang
+2025-10-03 14:01:32,373 - INFO - Click thành công.
+2025-10-03 14:01:33,518 - INFO - Cập nhật thay đổi cho nhà hàng: Shamballa Vegetarian, Greenhouse & Rooftop Bar - Da Nang
+2025-10-03 14:01:33,518 - INFO - Scraping 45/161: Big Bowl
+2025-10-03 14:01:35,901 - INFO - Click thành công.
+2025-10-03 14:01:36,048 - INFO - Không có thay đổi cho nhà hàng: Big Bowl
+2025-10-03 14:01:36,048 - INFO - Scraping 46/161: Tuyen Son Restaurant
+2025-10-03 14:01:38,352 - INFO - Click thành công.
+2025-10-03 14:01:39,364 - INFO - Không có thay đổi cho nhà hàng: Tuyen Son Restaurant
+2025-10-03 14:01:39,364 - INFO - Scraping 47/161: Phi Lu 1 Restaurant
+2025-10-03 14:01:41,720 - INFO - Click thành công.
+2025-10-03 14:01:42,885 - INFO - Cập nhật thay đổi cho nhà hàng: Phi Lu 1 Restaurant
+2025-10-03 14:01:42,886 - INFO - Scraping 48/161: Indian Masala Riverside Restaurant & Bar
+2025-10-03 14:01:48,938 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:01:48,960 - WARNING - Lỗi khi lấy số điện thoại
+2025-10-03 14:02:29,688 - WARNING - Lỗi khi truy cập tab 'About': Message: 
+
+2025-10-03 14:02:29,688 - INFO - Không có thay đổi cho nhà hàng: Indian Masala Riverside Restaurant & Bar
+2025-10-03 14:02:29,688 - INFO - Scraping 49/161: MAMA MASALA INDIAN CUISINE Da Nang
+2025-10-03 14:02:31,803 - INFO - Click thành công.
+2025-10-03 14:02:33,409 - INFO - Không có thay đổi cho nhà hàng: MAMA MASALA INDIAN CUISINE Da Nang
+2025-10-03 14:02:33,409 - INFO - Scraping 50/161: Le Bambino
+2025-10-03 14:02:35,329 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:03:16,233 - WARNING - Lỗi khi lấy địa chỉ
+2025-10-03 14:03:16,350 - INFO - Click thành công.
+2025-10-03 14:03:26,637 - WARNING - Lỗi khi truy cập tab 'About': Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xe4c333+65459]
+	GetHandleVerifier [0x0xe4c374+65524]
+	(No symbol) [0x0xc6d973]
+	(No symbol) [0x0xcb76e7]
+	(No symbol) [0x0xcb7a8b]
+	(No symbol) [0x0xcfdea2]
+	(No symbol) [0x0xcd9e44]
+	(No symbol) [0x0xcfb606]
+	(No symbol) [0x0xcd9bf6]
+	(No symbol) [0x0xcab38e]
+	(No symbol) [0x0xcac274]
+	GetHandleVerifier [0x0x10ceda3+2697763]
+	GetHandleVerifier [0x0x10c9ec7+2677575]
+	GetHandleVerifier [0x0xe74194+228884]
+	GetHandleVerifier [0x0xe649f8+165496]
+	GetHandleVerifier [0x0xe6b18d+192013]
+	GetHandleVerifier [0x0xe547d8+99416]
+	GetHandleVerifier [0x0xe54972+99826]
+	GetHandleVerifier [0x0xe3ebea+10346]
+	BaseThreadInitThunk [0x0x768c5d49+25]
+	RtlInitializeExceptionChain [0x0x779dd6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x779dd661+561]
+
+2025-10-03 14:03:26,637 - INFO - Không có thay đổi cho nhà hàng: Le Bambino
+2025-10-03 14:03:26,637 - INFO - Đã xử lý 50/161 nhà hàng...
+2025-10-03 14:03:26,637 - INFO - Scraping 51/161: Family Indian Restaurant
+2025-10-03 14:03:49,498 - INFO - Click thành công.
+2025-10-03 14:03:50,755 - INFO - Cập nhật thay đổi cho nhà hàng: Family Indian Restaurant
+2025-10-03 14:03:50,765 - INFO - Scraping 52/161: Banh Xeo Cuoi Restaurant (Authentic Vietnamese Cuisines) - Banh Mi - Bun Cha & Ha Noi Egg Coffee
+2025-10-03 14:03:52,483 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:04:23,835 - INFO - Click thành công.
+2025-10-03 14:04:23,960 - INFO - Cập nhật thay đổi cho nhà hàng: Banh Xeo Cuoi Restaurant (Authentic Vietnamese Cuisines) - Banh Mi - Bun Cha & Ha Noi Egg Coffee
+2025-10-03 14:04:23,962 - INFO - Scraping 53/161: Taco NGON
+2025-10-03 14:04:26,907 - INFO - Click thành công.
+2025-10-03 14:04:28,156 - INFO - Cập nhật thay đổi cho nhà hàng: Taco NGON
+2025-10-03 14:04:28,156 - INFO - Scraping 54/161: Epic Vietnamese Bistro - Halal Vietnamese Food
+2025-10-03 14:04:31,191 - INFO - Click thành công.
+2025-10-03 14:04:33,121 - INFO - Cập nhật thay đổi cho nhà hàng: Epic Vietnamese Bistro - Halal Vietnamese Food
+2025-10-03 14:04:33,125 - INFO - Scraping 55/161: EMO'S HOMECOOKED VIETNAMESE CUISINE
+2025-10-03 14:04:36,193 - INFO - Click thành công.
+2025-10-03 14:04:38,388 - INFO - Cập nhật thay đổi cho nhà hàng: EMO'S HOMECOOKED VIETNAMESE CUISINE
+2025-10-03 14:04:38,388 - INFO - Scraping 56/161: Bánh Xèo Bà Dưỡng
+2025-10-03 14:04:41,473 - INFO - Click thành công.
+2025-10-03 14:04:43,785 - INFO - Cập nhật thay đổi cho nhà hàng: Bánh Xèo Bà Dưỡng
+2025-10-03 14:04:43,785 - INFO - Scraping 57/161: Pizza 4P's Indochina Da Nang
+2025-10-03 14:05:00,696 - INFO - Click thành công.
+2025-10-03 14:05:02,299 - INFO - Cập nhật thay đổi cho nhà hàng: Pizza 4P's Indochina Da Nang
+2025-10-03 14:05:02,299 - INFO - Scraping 58/161: Pizza 4P's Hoang Van Thu
+2025-10-03 14:05:15,171 - INFO - Click thành công.
+2025-10-03 14:05:17,210 - INFO - Cập nhật thay đổi cho nhà hàng: Pizza 4P's Hoang Van Thu
+2025-10-03 14:05:17,210 - INFO - Scraping 59/161: My Hanh Seafood
+2025-10-03 14:05:24,057 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:05:24,618 - INFO - Click thành công.
+2025-10-03 14:05:25,821 - INFO - Cập nhật thay đổi cho nhà hàng: My Hanh Seafood
+2025-10-03 14:05:25,821 - INFO - Scraping 60/161: PHỞ 24 - ĐÀ NẴNG
+2025-10-03 14:05:28,619 - INFO - Click thành công.
+2025-10-03 14:05:29,902 - INFO - Cập nhật thay đổi cho nhà hàng: PHỞ 24 - ĐÀ NẴNG
+2025-10-03 14:05:29,906 - INFO - Đã xử lý 60/161 nhà hàng...
+2025-10-03 14:05:29,906 - INFO - Scraping 61/161: Loving Vegan
+2025-10-03 14:05:34,567 - INFO - Click thành công.
+2025-10-03 14:05:36,488 - INFO - Không có thay đổi cho nhà hàng: Loving Vegan
+2025-10-03 14:05:36,488 - INFO - Scraping 62/161: Nén Danang Restaurant
+2025-10-03 14:05:38,222 - INFO - Click thành công.
+2025-10-03 14:05:40,932 - INFO - Cập nhật thay đổi cho nhà hàng: Nén Danang Restaurant
+2025-10-03 14:05:40,932 - INFO - Scraping 63/161: Ayi Bistro (四川小馆)
+2025-10-03 14:05:44,601 - INFO - Click thành công.
+2025-10-03 14:05:46,684 - INFO - Cập nhật thay đổi cho nhà hàng: Ayi Bistro (四川小馆)
+2025-10-03 14:05:46,684 - INFO - Scraping 64/161: Nhà hàng Madame Lân
+2025-10-03 14:05:50,381 - INFO - Click thành công.
+2025-10-03 14:05:52,296 - INFO - Cập nhật thay đổi cho nhà hàng: Nhà hàng Madame Lân
+2025-10-03 14:05:52,296 - INFO - Scraping 65/161: Ca Chuon Co Vietnamese Restaurant
+2025-10-03 14:05:54,046 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:06:05,333 - INFO - Click thành công.
+2025-10-03 14:06:06,457 - INFO - Cập nhật thay đổi cho nhà hàng: Ca Chuon Co Vietnamese Restaurant
+2025-10-03 14:06:06,457 - INFO - Scraping 66/161: Ichiban sushi đà nẵng
+2025-10-03 14:06:08,652 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:06:09,734 - INFO - Click thành công.
+2025-10-03 14:06:11,601 - INFO - Không có thay đổi cho nhà hàng: Ichiban sushi đà nẵng
+2025-10-03 14:06:11,601 - INFO - Scraping 67/161: Indian Restaurant Ganesh Da Nang
+2025-10-03 14:06:13,362 - WARNING - Lỗi khi lấy số điện thoại
+2025-10-03 14:06:15,111 - INFO - Click thành công.
+2025-10-03 14:06:17,040 - INFO - Không có thay đổi cho nhà hàng: Indian Restaurant Ganesh Da Nang
+2025-10-03 14:06:17,040 - INFO - Scraping 68/161: Veteran Restaurant
+2025-10-03 14:06:30,366 - INFO - Click thành công.
+2025-10-03 14:06:31,992 - INFO - Cập nhật thay đổi cho nhà hàng: Veteran Restaurant
+2025-10-03 14:06:31,992 - INFO - Scraping 69/161: Lucky
+2025-10-03 14:06:35,703 - WARNING - Lỗi khi lấy số điện thoại
+2025-10-03 14:06:36,360 - INFO - Click thành công.
+2025-10-03 14:06:36,861 - INFO - Không có thay đổi cho nhà hàng: Lucky
+2025-10-03 14:06:36,861 - INFO - Scraping 70/161: Bún Bò Bà Rơi
+2025-10-03 14:06:47,839 - INFO - Click thành công.
+2025-10-03 14:06:48,222 - INFO - Cập nhật thay đổi cho nhà hàng: Bún Bò Bà Rơi
+2025-10-03 14:06:48,227 - INFO - Đã xử lý 70/161 nhà hàng...
+2025-10-03 14:06:48,227 - INFO - Scraping 71/161: MeliOh Bistro Danang - ROMANTIC DATING EXPERIENCE
+2025-10-03 14:06:49,894 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:06:51,265 - INFO - Click thành công.
+2025-10-03 14:06:53,096 - INFO - Cập nhật thay đổi cho nhà hàng: MeliOh Bistro Danang - ROMANTIC DATING EXPERIENCE
+2025-10-03 14:06:53,096 - INFO - Scraping 72/161: Muối Biển Seafood Restaurant - Nhà hàng hải sản Đà Nẵng
+2025-10-03 14:06:55,165 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:06:56,554 - INFO - Click thành công.
+2025-10-03 14:06:58,427 - INFO - Cập nhật thay đổi cho nhà hàng: Muối Biển Seafood Restaurant - Nhà hàng hải sản Đà Nẵng
+2025-10-03 14:06:58,432 - INFO - Scraping 73/161: Mumtaz Indian Aroma Restaurant(former Mumtaz Indian)
+2025-10-03 14:07:01,404 - INFO - Click thành công.
+2025-10-03 14:07:03,344 - INFO - Cập nhật thay đổi cho nhà hàng: Mumtaz Indian Aroma Restaurant(former Mumtaz Indian)
+2025-10-03 14:07:03,344 - INFO - Scraping 74/161: Bún chả cá 109
+2025-10-03 14:07:06,887 - INFO - Click thành công.
+2025-10-03 14:07:08,398 - INFO - Cập nhật thay đổi cho nhà hàng: Bún chả cá 109
+2025-10-03 14:07:08,398 - INFO - Scraping 75/161: Bánh mì Cô Tiên
+2025-10-03 14:07:11,290 - INFO - Click thành công.
+2025-10-03 14:07:13,138 - INFO - Cập nhật thay đổi cho nhà hàng: Bánh mì Cô Tiên
+2025-10-03 14:07:13,138 - INFO - Scraping 76/161: Sultan Istanbul Kebab Da Nang | Halal Turkish Food
+2025-10-03 14:07:15,359 - WARNING - Lỗi khi lấy số điện thoại
+2025-10-03 14:07:16,486 - INFO - Click thành công.
+2025-10-03 14:07:18,216 - INFO - Cập nhật thay đổi cho nhà hàng: Sultan Istanbul Kebab Da Nang | Halal Turkish Food
+2025-10-03 14:07:18,216 - INFO - Scraping 77/161: Cơm gà A Hải
+2025-10-03 14:07:21,021 - INFO - Click thành công.
+2025-10-03 14:07:23,709 - INFO - Cập nhật thay đổi cho nhà hàng: Cơm gà A Hải
+2025-10-03 14:07:23,709 - INFO - Scraping 78/161: Benaras Central Da Nang
+2025-10-03 14:07:26,692 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:07:27,859 - INFO - Click thành công.
+2025-10-03 14:07:29,227 - INFO - Cập nhật thay đổi cho nhà hàng: Benaras Central Da Nang
+2025-10-03 14:07:29,227 - INFO - Scraping 79/161: NGƯ PHỐ - Chả Cá Hà Nội tại Đà Nẵng
+2025-10-03 14:07:44,082 - INFO - Click thành công.
+2025-10-03 14:07:44,751 - INFO - Cập nhật thay đổi cho nhà hàng: NGƯ PHỐ - Chả Cá Hà Nội tại Đà Nẵng
+2025-10-03 14:07:44,751 - INFO - Scraping 80/161: Thai Market
+2025-10-03 14:07:47,713 - INFO - Click thành công.
+2025-10-03 14:07:49,598 - INFO - Cập nhật thay đổi cho nhà hàng: Thai Market
+2025-10-03 14:07:49,598 - INFO - Đã xử lý 80/161 nhà hàng...
+2025-10-03 14:07:49,598 - INFO - Scraping 81/161: ISH - The Indian Restaurant
+2025-10-03 14:07:52,706 - INFO - Click thành công.
+2025-10-03 14:07:54,720 - INFO - Không có thay đổi cho nhà hàng: ISH - The Indian Restaurant
+2025-10-03 14:07:54,720 - INFO - Scraping 82/161: Nhà Hàng Chay Ngọc Chi - Vegetarian Restaurant Michelin guide 2025
+2025-10-03 14:07:57,854 - INFO - Click thành công.
+2025-10-03 14:07:59,547 - INFO - Cập nhật thay đổi cho nhà hàng: Nhà Hàng Chay Ngọc Chi - Vegetarian Restaurant Michelin guide 2025
+2025-10-03 14:07:59,551 - INFO - Scraping 83/161: Esco Beach, Bar Lounge & Restaurant
+2025-10-03 14:08:02,450 - INFO - Click thành công.
+2025-10-03 14:08:04,087 - INFO - Cập nhật thay đổi cho nhà hàng: Esco Beach, Bar Lounge & Restaurant
+2025-10-03 14:08:04,087 - INFO - Scraping 84/161: Maxim halal restaurant & cafe ( danang ) ( مطعم حلال)
+2025-10-03 14:08:05,535 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:08:07,345 - INFO - Click thành công.
+2025-10-03 14:08:09,001 - INFO - Không có thay đổi cho nhà hàng: Maxim halal restaurant & cafe ( danang ) ( مطعم حلال)
+2025-10-03 14:08:09,001 - INFO - Scraping 85/161: Bonchon Chicken Da Nang - 12 Lê Hồng Phong
+2025-10-03 14:08:27,720 - INFO - Click thành công.
+2025-10-03 14:08:28,559 - INFO - Cập nhật thay đổi cho nhà hàng: Bonchon Chicken Da Nang - 12 Lê Hồng Phong
+2025-10-03 14:08:28,559 - INFO - Scraping 86/161: Nhà Hàng Đồ Ăn Thái - Thai Market Restaurant - Bình Minh 5
+2025-10-03 14:08:31,940 - INFO - Click thành công.
+2025-10-03 14:08:33,325 - INFO - Cập nhật thay đổi cho nhà hàng: Nhà Hàng Đồ Ăn Thái - Thai Market Restaurant - Bình Minh 5
+2025-10-03 14:08:33,325 - INFO - Scraping 87/161: ANs - Vegetarian Cuisine
+2025-10-03 14:08:44,448 - INFO - Click thành công.
+2025-10-03 14:08:45,217 - INFO - Không có thay đổi cho nhà hàng: ANs - Vegetarian Cuisine
+2025-10-03 14:08:45,217 - INFO - Scraping 88/161: Rainbowl Poke
+2025-10-03 14:08:47,967 - INFO - Click thành công.
+2025-10-03 14:08:49,489 - INFO - Cập nhật thay đổi cho nhà hàng: Rainbowl Poke
+2025-10-03 14:08:49,489 - INFO - Scraping 89/161: Olivia's Prime Steakhouse
+2025-10-03 14:09:12,135 - INFO - Click thành công.
+2025-10-03 14:09:13,683 - INFO - Không có thay đổi cho nhà hàng: Olivia's Prime Steakhouse
+2025-10-03 14:09:13,683 - INFO - Scraping 90/161: Cơm tấm Bà Lang
+2025-10-03 14:09:16,622 - INFO - Click thành công.
+2025-10-03 14:09:18,120 - INFO - Cập nhật thay đổi cho nhà hàng: Cơm tấm Bà Lang
+2025-10-03 14:09:18,122 - INFO - Đã xử lý 90/161 nhà hàng...
+2025-10-03 14:09:18,122 - INFO - Scraping 91/161: Da Nang Rooftop - Craft Beer
+2025-10-03 14:09:21,418 - INFO - Click thành công.
+2025-10-03 14:09:23,240 - INFO - Cập nhật thay đổi cho nhà hàng: Da Nang Rooftop - Craft Beer
+2025-10-03 14:09:23,240 - INFO - Scraping 92/161: KURUMI - Healthy Vegan Food & Desserts
+2025-10-03 14:10:27,321 - INFO - Click thành công.
+2025-10-03 14:10:28,964 - INFO - Cập nhật thay đổi cho nhà hàng: KURUMI - Healthy Vegan Food & Desserts
+2025-10-03 14:10:28,964 - INFO - Scraping 93/161: RAJASTHANI PURE VEG INDIAN RESTAURANT DANANG
+2025-10-03 14:10:32,823 - INFO - Click thành công.
+2025-10-03 14:10:33,121 - INFO - Cập nhật thay đổi cho nhà hàng: RAJASTHANI PURE VEG INDIAN RESTAURANT DANANG
+2025-10-03 14:10:33,122 - INFO - Scraping 94/161: Brilliant Restaurant
+2025-10-03 14:10:36,007 - INFO - Click thành công.
+2025-10-03 14:10:37,808 - INFO - Không có thay đổi cho nhà hàng: Brilliant Restaurant
+2025-10-03 14:10:37,808 - INFO - Scraping 95/161: Takoyaki Hatachi Da Nang
+2025-10-03 14:10:40,217 - INFO - Click thành công.
+2025-10-03 14:10:41,789 - INFO - Cập nhật thay đổi cho nhà hàng: Takoyaki Hatachi Da Nang
+2025-10-03 14:10:41,790 - INFO - Scraping 96/161: The Temptation
+2025-10-03 14:10:44,726 - INFO - Click thành công.
+2025-10-03 14:10:46,013 - INFO - Cập nhật thay đổi cho nhà hàng: The Temptation
+2025-10-03 14:10:46,013 - INFO - Scraping 97/161: Mì Quảng Đà Nẵng - Mỳ Quảng Bà Mua
+2025-10-03 14:10:48,965 - INFO - Click thành công.
+2025-10-03 14:10:50,944 - INFO - Cập nhật thay đổi cho nhà hàng: Mì Quảng Đà Nẵng - Mỳ Quảng Bà Mua
+2025-10-03 14:10:50,944 - INFO - Scraping 98/161: Quán Hải sản Bà Tám
+2025-10-03 14:10:52,426 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:10:53,708 - INFO - Click thành công.
+2025-10-03 14:10:55,238 - INFO - Cập nhật thay đổi cho nhà hàng: Quán Hải sản Bà Tám
+2025-10-03 14:10:55,238 - INFO - Scraping 99/161: Quán Bún Bà Diệu
+2025-10-03 14:10:58,204 - INFO - Click thành công.
+2025-10-03 14:11:00,230 - INFO - Không có thay đổi cho nhà hàng: Quán Bún Bà Diệu
+2025-10-03 14:11:00,231 - INFO - Scraping 100/161: Patakka
+2025-10-03 14:11:02,330 - WARNING - Lỗi khi lấy số điện thoại
+2025-10-03 14:11:03,267 - INFO - Click thành công.
+2025-10-03 14:11:04,892 - INFO - Không có thay đổi cho nhà hàng: Patakka
+2025-10-03 14:11:04,892 - INFO - Đã xử lý 100/161 nhà hàng...
+2025-10-03 14:11:04,892 - INFO - Scraping 101/161: Shilla Noodle
+2025-10-03 14:11:06,528 - WARNING - Lỗi khi lấy số điện thoại
+2025-10-03 14:11:07,458 - WARNING - Lỗi khi lấy tọa độ từ Plus Code
+2025-10-03 14:11:07,721 - INFO - Click thành công.
+2025-10-03 14:11:08,753 - INFO - Không có thay đổi cho nhà hàng: Shilla Noodle
+2025-10-03 14:11:08,753 - INFO - Scraping 102/161: INDIAN CURRY RESTAURANT
+2025-10-03 14:11:11,888 - INFO - Click thành công.
+2025-10-03 14:11:13,921 - INFO - Không có thay đổi cho nhà hàng: INDIAN CURRY RESTAURANT
+2025-10-03 14:11:13,921 - INFO - Scraping 103/161: Veda's Kitchen Indian Restaurant
+2025-10-03 14:11:16,651 - INFO - Click thành công.
+2025-10-03 14:11:18,112 - INFO - Không có thay đổi cho nhà hàng: Veda's Kitchen Indian Restaurant
+2025-10-03 14:11:18,112 - INFO - Scraping 104/161: Au Restaurant
+2025-10-03 14:11:24,811 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:11:24,985 - INFO - Click thành công.
+2025-10-03 14:11:25,790 - INFO - Không có thay đổi cho nhà hàng: Au Restaurant
+2025-10-03 14:11:25,790 - INFO - Scraping 105/161: Bún mắm Liêm
+2025-10-03 14:11:42,146 - INFO - Click thành công.
+2025-10-03 14:11:42,517 - INFO - Không có thay đổi cho nhà hàng: Bún mắm Liêm
+2025-10-03 14:11:42,517 - INFO - Scraping 106/161: กิน กิน Kin Kin Thai Food - 59 Tôn Thất Đạm
+2025-10-03 14:11:45,423 - INFO - Click thành công.
+2025-10-03 14:11:47,038 - INFO - Không có thay đổi cho nhà hàng: กิน กิน Kin Kin Thai Food - 59 Tôn Thất Đạm
+2025-10-03 14:11:47,038 - INFO - Scraping 107/161: Nhà Hàng Chay Tathata - Vegan Restaurant Da Nang
+2025-10-03 14:11:50,485 - INFO - Click thành công.
+2025-10-03 14:11:52,464 - INFO - Cập nhật thay đổi cho nhà hàng: Nhà Hàng Chay Tathata - Vegan Restaurant Da Nang
+2025-10-03 14:11:52,464 - INFO - Scraping 108/161: The Golden Dragon
+2025-10-03 14:11:53,884 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:12:05,138 - INFO - Click thành công.
+2025-10-03 14:12:05,788 - INFO - Không có thay đổi cho nhà hàng: The Golden Dragon
+2025-10-03 14:12:05,789 - INFO - Scraping 109/161: PHỞ BẮC 63
+2025-10-03 14:12:16,186 - INFO - Click thành công.
+2025-10-03 14:12:16,974 - INFO - Cập nhật thay đổi cho nhà hàng: PHỞ BẮC 63
+2025-10-03 14:12:16,974 - INFO - Scraping 110/161: Bún chả cá Bà Hoa
+2025-10-03 14:12:20,155 - INFO - Click thành công.
+2025-10-03 14:12:21,469 - INFO - Cập nhật thay đổi cho nhà hàng: Bún chả cá Bà Hoa
+2025-10-03 14:12:21,469 - INFO - Đã xử lý 110/161 nhà hàng...
+2025-10-03 14:12:21,469 - INFO - Scraping 111/161: Nhà Hàng Đà Nẵng - Ho Xanh Restaurant
+2025-10-03 14:12:25,331 - INFO - Click thành công.
+2025-10-03 14:12:26,042 - INFO - Cập nhật thay đổi cho nhà hàng: Nhà Hàng Đà Nẵng - Ho Xanh Restaurant
+2025-10-03 14:12:26,042 - INFO - Scraping 112/161: Danang local food restaurant
+2025-10-03 14:12:28,892 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:12:29,137 - INFO - Click thành công.
+2025-10-03 14:12:29,491 - INFO - Không có thay đổi cho nhà hàng: Danang local food restaurant
+2025-10-03 14:12:29,491 - INFO - Scraping 113/161: Cơm Niêu Nhà Đỏ
+2025-10-03 14:12:32,126 - INFO - Click thành công.
+2025-10-03 14:12:33,468 - INFO - Không có thay đổi cho nhà hàng: Cơm Niêu Nhà Đỏ
+2025-10-03 14:12:33,468 - INFO - Scraping 114/161: Hờn Fishcake Noodle Soup
+2025-10-03 14:12:36,498 - INFO - Click thành công.
+2025-10-03 14:12:37,227 - INFO - Không có thay đổi cho nhà hàng: Hờn Fishcake Noodle Soup
+2025-10-03 14:12:37,227 - INFO - Scraping 115/161: Da Nang Snails & seafood
+2025-10-03 14:12:40,073 - INFO - Click thành công.
+2025-10-03 14:12:41,455 - INFO - Cập nhật thay đổi cho nhà hàng: Da Nang Snails & seafood
+2025-10-03 14:12:41,455 - INFO - Scraping 116/161: Galeria Villa - Heritage Dining Experience
+2025-10-03 14:12:43,236 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:12:44,728 - INFO - Click thành công.
+2025-10-03 14:12:46,879 - INFO - Không có thay đổi cho nhà hàng: Galeria Villa - Heritage Dining Experience
+2025-10-03 14:12:46,879 - INFO - Scraping 117/161: Hủ Tiếu Mực Thuận Thành
+2025-10-03 14:12:49,895 - INFO - Click thành công.
+2025-10-03 14:12:51,586 - INFO - Cập nhật thay đổi cho nhà hàng: Hủ Tiếu Mực Thuận Thành
+2025-10-03 14:12:51,586 - INFO - Scraping 118/161: Tacos Danang
+2025-10-03 14:12:55,552 - INFO - Click thành công.
+2025-10-03 14:12:57,103 - INFO - Cập nhật thay đổi cho nhà hàng: Tacos Danang
+2025-10-03 14:12:57,103 - INFO - Scraping 119/161: Fill My Buns
+2025-10-03 14:13:00,027 - INFO - Click thành công.
+2025-10-03 14:13:01,545 - INFO - Cập nhật thay đổi cho nhà hàng: Fill My Buns
+2025-10-03 14:13:01,545 - INFO - Scraping 120/161: Mỳ Quảng Cô Sáu
+2025-10-03 14:13:04,767 - INFO - Click thành công.
+2025-10-03 14:13:07,058 - INFO - Cập nhật thay đổi cho nhà hàng: Mỳ Quảng Cô Sáu
+2025-10-03 14:13:07,058 - INFO - Đã xử lý 120/161 nhà hàng...
+2025-10-03 14:13:07,058 - INFO - Scraping 121/161: Thai Market Restaurant
+2025-10-03 14:13:09,972 - INFO - Click thành công.
+2025-10-03 14:13:11,715 - INFO - Cập nhật thay đổi cho nhà hàng: Thai Market Restaurant
+2025-10-03 14:13:11,715 - INFO - Scraping 122/161: Hoa Lư Restaurant
+2025-10-03 14:13:24,968 - INFO - Click thành công.
+2025-10-03 14:13:26,378 - INFO - Không có thay đổi cho nhà hàng: Hoa Lư Restaurant
+2025-10-03 14:13:26,379 - INFO - Scraping 123/161: Coi Nguon Restaurant
+2025-10-03 14:13:29,235 - INFO - Click thành công.
+2025-10-03 14:13:30,808 - INFO - Không có thay đổi cho nhà hàng: Coi Nguon Restaurant
+2025-10-03 14:13:30,818 - INFO - Scraping 124/161: Cardi Pizzeria Bạch Đằng
+2025-10-03 14:13:32,625 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:13:33,822 - INFO - Click thành công.
+2025-10-03 14:13:36,084 - INFO - Cập nhật thay đổi cho nhà hàng: Cardi Pizzeria Bạch Đằng
+2025-10-03 14:13:36,084 - INFO - Scraping 125/161: Bikini Bottom Express
+2025-10-03 14:13:42,423 - INFO - Click thành công.
+2025-10-03 14:13:43,989 - INFO - Cập nhật thay đổi cho nhà hàng: Bikini Bottom Express
+2025-10-03 14:13:43,989 - INFO - Scraping 126/161: LoCo Restaurant - Danang seafood restaurant - 다낭 레스토랑
+2025-10-03 14:13:46,940 - INFO - Click thành công.
+2025-10-03 14:13:48,627 - INFO - Không có thay đổi cho nhà hàng: LoCo Restaurant - Danang seafood restaurant - 다낭 레스토랑
+2025-10-03 14:13:48,627 - INFO - Scraping 127/161: Pause and Enjoy Da Nang- 포즈 앤 엔조이
+2025-10-03 14:13:51,785 - INFO - Click thành công.
+2025-10-03 14:13:53,881 - INFO - Cập nhật thay đổi cho nhà hàng: Pause and Enjoy Da Nang- 포즈 앤 엔조이
+2025-10-03 14:13:53,881 - INFO - Scraping 128/161: Brilliant Top Bar
+2025-10-03 14:13:55,905 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:14:06,725 - INFO - Click thành công.
+2025-10-03 14:14:08,074 - INFO - Cập nhật thay đổi cho nhà hàng: Brilliant Top Bar
+2025-10-03 14:14:08,076 - INFO - Scraping 129/161: MUDAN HOTPOT RESTAURANT
+2025-10-03 14:14:09,751 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:14:11,003 - INFO - Click thành công.
+2025-10-03 14:14:12,335 - INFO - Không có thay đổi cho nhà hàng: MUDAN HOTPOT RESTAURANT
+2025-10-03 14:14:12,335 - INFO - Scraping 130/161: Burger King
+2025-10-03 14:14:15,411 - INFO - Click thành công.
+2025-10-03 14:14:16,567 - INFO - Không có thay đổi cho nhà hàng: Burger King
+2025-10-03 14:14:16,567 - INFO - Đã xử lý 130/161 nhà hàng...
+2025-10-03 14:14:16,567 - INFO - Scraping 131/161: Hoa Viên Restaurant - 100 Tiểu La, Đà Nẵng
+2025-10-03 14:14:27,114 - INFO - Click thành công.
+2025-10-03 14:14:27,239 - INFO - Cập nhật thay đổi cho nhà hàng: Hoa Viên Restaurant - 100 Tiểu La, Đà Nẵng
+2025-10-03 14:14:27,239 - INFO - Scraping 132/161: Don Cipriani's Restaurant - Furama resort Danang
+2025-10-03 14:14:28,921 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:14:30,077 - INFO - Click thành công.
+2025-10-03 14:14:31,438 - INFO - Cập nhật thay đổi cho nhà hàng: Don Cipriani's Restaurant - Furama resort Danang
+2025-10-03 14:14:31,438 - INFO - Scraping 133/161: Mì Quảng Dung
+2025-10-03 14:14:34,310 - INFO - Click thành công.
+2025-10-03 14:14:35,697 - INFO - Cập nhật thay đổi cho nhà hàng: Mì Quảng Dung
+2025-10-03 14:14:35,697 - INFO - Scraping 134/161: Riverside Terrace Restaurant
+2025-10-03 14:14:37,094 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:14:38,370 - INFO - Click thành công.
+2025-10-03 14:14:39,280 - INFO - Không có thay đổi cho nhà hàng: Riverside Terrace Restaurant
+2025-10-03 14:14:39,280 - INFO - Scraping 135/161: Pink Salt Restaurant
+2025-10-03 14:14:41,091 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:14:42,345 - INFO - Click thành công.
+2025-10-03 14:14:44,058 - INFO - Cập nhật thay đổi cho nhà hàng: Pink Salt Restaurant
+2025-10-03 14:14:44,058 - INFO - Scraping 136/161: Breakfast buffet at Lotus Wine & Dine Restaurant of Royal Lotus Hotel Da Nang
+2025-10-03 14:14:45,746 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:14:46,955 - INFO - Click thành công.
+2025-10-03 14:14:48,804 - INFO - Không có thay đổi cho nhà hàng: Breakfast buffet at Lotus Wine & Dine Restaurant of Royal Lotus Hotel Da Nang
+2025-10-03 14:14:48,804 - INFO - Scraping 137/161: The Nomad Kitchen
+2025-10-03 14:14:52,071 - INFO - Click thành công.
+2025-10-03 14:14:53,623 - INFO - Cập nhật thay đổi cho nhà hàng: The Nomad Kitchen
+2025-10-03 14:14:53,624 - INFO - Scraping 138/161: Rasoi Indian Vegetarian Restaurant Đà Nẵng
+2025-10-03 14:14:57,204 - INFO - Click thành công.
+2025-10-03 14:14:58,704 - INFO - Cập nhật thay đổi cho nhà hàng: Rasoi Indian Vegetarian Restaurant Đà Nẵng
+2025-10-03 14:14:58,704 - INFO - Scraping 139/161: Quan Chay Dieu Hoa - Vegan restaurant in Danang
+2025-10-03 14:15:02,184 - INFO - Click thành công.
+2025-10-03 14:15:04,396 - INFO - Không có thay đổi cho nhà hàng: Quan Chay Dieu Hoa - Vegan restaurant in Danang
+2025-10-03 14:15:04,400 - INFO - Scraping 140/161: Pho An Nam Da Nang
+2025-10-03 14:15:08,083 - INFO - Click thành công.
+2025-10-03 14:15:09,876 - INFO - Không có thay đổi cho nhà hàng: Pho An Nam Da Nang
+2025-10-03 14:15:09,876 - INFO - Đã xử lý 140/161 nhà hàng...
+2025-10-03 14:15:09,876 - INFO - Scraping 141/161: SIX ON SIX CAFE - BRUNCH & RESTAURANT
+2025-10-03 14:15:15,772 - INFO - Click thành công.
+2025-10-03 14:15:16,991 - INFO - Cập nhật thay đổi cho nhà hàng: SIX ON SIX CAFE - BRUNCH & RESTAURANT
+2025-10-03 14:15:16,991 - INFO - Scraping 142/161: Beefsteak Vĩnh Tường
+2025-10-03 14:15:19,910 - INFO - Click thành công.
+2025-10-03 14:15:21,263 - INFO - Không có thay đổi cho nhà hàng: Beefsteak Vĩnh Tường
+2025-10-03 14:15:21,263 - INFO - Scraping 143/161: Chay An Lạc Tâm (An Lac Tam Vegetarian) CS 1
+2025-10-03 14:15:24,173 - INFO - Click thành công.
+2025-10-03 14:15:26,761 - INFO - Không có thay đổi cho nhà hàng: Chay An Lạc Tâm (An Lac Tam Vegetarian) CS 1
+2025-10-03 14:15:26,761 - INFO - Scraping 144/161: Bê Thui Cô Vân
+2025-10-03 14:15:29,607 - INFO - Click thành công.
+2025-10-03 14:15:30,841 - INFO - Không có thay đổi cho nhà hàng: Bê Thui Cô Vân
+2025-10-03 14:15:30,841 - INFO - Scraping 145/161: Chops Da Nang
+2025-10-03 14:15:34,249 - INFO - Click thành công.
+2025-10-03 14:15:36,555 - INFO - Cập nhật thay đổi cho nhà hàng: Chops Da Nang
+2025-10-03 14:15:36,555 - INFO - Scraping 146/161: Sindbad Da Nang (Kebab 케밥)
+2025-10-03 14:15:45,133 - INFO - Click thành công.
+2025-10-03 14:15:45,435 - INFO - Cập nhật thay đổi cho nhà hàng: Sindbad Da Nang (Kebab 케밥)
+2025-10-03 14:15:45,435 - INFO - Scraping 147/161: LUK LAK
+2025-10-03 14:15:47,137 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:15:48,254 - INFO - Click thành công.
+2025-10-03 14:15:50,072 - INFO - Cập nhật thay đổi cho nhà hàng: LUK LAK
+2025-10-03 14:15:50,072 - INFO - Scraping 148/161: Bánh Xèo Tôm Nhảy Cô Ba Michelin
+2025-10-03 14:15:52,944 - INFO - Click thành công.
+2025-10-03 14:15:54,495 - INFO - Cập nhật thay đổi cho nhà hàng: Bánh Xèo Tôm Nhảy Cô Ba Michelin
+2025-10-03 14:15:54,496 - INFO - Scraping 149/161: Olivia's Prime Steakhouse | Danang
+2025-10-03 14:16:17,757 - INFO - Click thành công.
+2025-10-03 14:16:19,417 - INFO - Không có thay đổi cho nhà hàng: Olivia's Prime Steakhouse | Danang
+2025-10-03 14:16:19,417 - INFO - Scraping 150/161: Danang Tower
+2025-10-03 14:16:22,131 - INFO - Click thành công.
+2025-10-03 14:16:23,849 - INFO - Cập nhật thay đổi cho nhà hàng: Danang Tower
+2025-10-03 14:16:23,849 - INFO - Đã xử lý 150/161 nhà hàng...
+2025-10-03 14:16:23,849 - INFO - Scraping 151/161: Hải Sản Lão Đại Đà Nẵng
+2025-10-03 14:16:26,996 - INFO - Click thành công.
+2025-10-03 14:16:28,784 - INFO - Cập nhật thay đổi cho nhà hàng: Hải Sản Lão Đại Đà Nẵng
+2025-10-03 14:16:28,784 - INFO - Scraping 152/161: Bánh canh Yến
+2025-10-03 14:16:31,481 - INFO - Click thành công.
+2025-10-03 14:16:33,157 - INFO - Không có thay đổi cho nhà hàng: Bánh canh Yến
+2025-10-03 14:16:33,157 - INFO - Scraping 153/161: Nhà Hàng Chay Hương Sen
+2025-10-03 14:16:36,534 - INFO - Click thành công.
+2025-10-03 14:16:38,289 - INFO - Không có thay đổi cho nhà hàng: Nhà Hàng Chay Hương Sen
+2025-10-03 14:16:38,290 - INFO - Scraping 154/161: Restaurant PHỞ HOUSE
+2025-10-03 14:16:41,384 - INFO - Click thành công.
+2025-10-03 14:16:43,294 - INFO - Không có thay đổi cho nhà hàng: Restaurant PHỞ HOUSE
+2025-10-03 14:16:43,294 - INFO - Scraping 155/161: Độc Mộc buffet
+2025-10-03 14:17:06,783 - INFO - Click thành công.
+2025-10-03 14:17:07,784 - INFO - Cập nhật thay đổi cho nhà hàng: Độc Mộc buffet
+2025-10-03 14:17:07,784 - INFO - Scraping 156/161: KYOTO Sushi & Teppanyaki Restaurant
+2025-10-03 14:17:09,445 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:17:10,923 - INFO - Click thành công.
+2025-10-03 14:17:12,239 - INFO - Không có thay đổi cho nhà hàng: KYOTO Sushi & Teppanyaki Restaurant
+2025-10-03 14:17:12,239 - INFO - Scraping 157/161: Istanbul Anatolian Kebab House
+2025-10-03 14:17:15,393 - INFO - Click thành công.
+2025-10-03 14:17:17,233 - INFO - Cập nhật thay đổi cho nhà hàng: Istanbul Anatolian Kebab House
+2025-10-03 14:17:17,233 - INFO - Scraping 158/161: Le Petit Bistro Da Nang
+2025-10-03 14:17:18,758 - WARNING - Lỗi khi lấy mức giá
+2025-10-03 14:17:20,046 - INFO - Click thành công.
+2025-10-03 14:17:22,170 - INFO - Cập nhật thay đổi cho nhà hàng: Le Petit Bistro Da Nang
+2025-10-03 14:17:22,170 - INFO - Scraping 159/161: Lua Viet Restaurant - Vietnamese Cusine (베트남 전통 음식 /ベトナムの伝統料理 /越南传统美食 )
+2025-10-03 14:17:25,865 - INFO - Click thành công.
+2025-10-03 14:17:27,406 - INFO - Cập nhật thay đổi cho nhà hàng: Lua Viet Restaurant - Vietnamese Cusine (베트남 전통 음식 /ベトナムの伝統料理 /越南传统美食 )
+2025-10-03 14:17:27,411 - INFO - Scraping 160/161: Butcher Steak
+2025-10-03 14:17:39,831 - INFO - Click thành công.
+2025-10-03 14:17:41,023 - INFO - Cập nhật thay đổi cho nhà hàng: Butcher Steak
+2025-10-03 14:17:41,023 - INFO - Đã xử lý 160/161 nhà hàng...
+2025-10-03 14:17:41,023 - INFO - Scraping 161/161: The Temptation French Restaurant Da Nang
+2025-10-03 14:17:43,310 - INFO - Click thành công.
+2025-10-03 14:17:44,608 - INFO - Cập nhật thay đổi cho nhà hàng: The Temptation French Restaurant Da Nang
+2025-10-03 14:17:44,787 - INFO - Hoàn thành! Đã cập nhật 109 nhà hàng và lưu vào restaurants.csv.
+2025-10-03 14:17:44,797 - INFO - Hoàn thành cập nhật dữ liệu! Đã cập nhật 109 nhà hàng.
+2025-10-03 14:17:48,522 - INFO - Đã đóng trình duyệt.
+2025-10-03 14:17:48,522 - INFO - Kết thúc crawl: 2025-10-03 14:17:48, thời gian chạy: 0:22:02.384193

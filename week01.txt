@@ -1,0 +1,31 @@
+Phân tích như DA.
+DL liên quan đến hoạt động KD của DN: tìm dữ liệu trong lĩnh vực (domain)
+Mô tả bài toán, cách giải quyết data
+Chọn bài toán,dđặt vấn đề giải quyết.
+hiểu sâu về dataset
+báo cáo bang video - record
+Phần tram đóng góp cá nhân 0 đến 100
+làm cái gì với dataset này?
+Cơ sở lí thuyết - quy trình
+Kết quả minh chứng
+Giải pháp dè xuất
+
+định nghĩa vấn đề
+xác định câu hỏi nghiên cứu
+làm cho ai? hỗ trợ, phục vụ cho ai? - lãnh đạo, khách hang?
+
+Tuần sau nộp domain, dataset, đặt vấn đề -> câu hỏi nghiên cứu, nếu crawl thì có thể nộp sau
+
+Nguồn data
+hiểu data
+check độ đáng tin cậy
+
+tiền xử lý DL
+
+EDA - thống kê, vẽ phân phối, dashboard tìm xu thế - quan hệ - insight
+
+Mô hình dữ liệu - ML
+
+Giải thích kết quả -> Actions
+
+Deploy mô hình lên web
