@@ -30,7 +30,7 @@ logger = logging.getLogger(__name__)
 
 # Blacklist
 blacklist_res = ["Anna Restaurant", "Suzu home", "Manvar rasoi", "Quán Cây Đa", "Embers & Leaves Restaurant",
-                 "Da Nang Restaurant"]  
+                 "Da Nang Restaurant", "Le Bambino"]  
 
 # Định nghĩa các cột trong file CSV
 BASE_FIELDNAMES = [
