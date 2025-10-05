@@ -2,7 +2,7 @@ import time
 import logging
 import csv
 import os
-from datetime import datetime, timedelta
+from datetime import datetime
 from logging.handlers import RotatingFileHandler
 import re
 import pandas as pd
@@ -179,8 +179,7 @@ def process_and_save_batch(driver, start_index, end_index, Restaurant_id, existi
         # Tính Created_at từ Review_time
         created_date = convert_review_time(crawl_time, review_data["Review_time"])
         review_data["Created_at"] = created_date.strftime("%Y-%m-%d") if created_date else ""
-        
-        # Chuẩn hóa độ dài
+
         review_data["Reviewer_name"] = review_data["Reviewer_name"][:500] if review_data["Reviewer_name"] else ""
         review_data["Reviewer_info"] = review_data["Reviewer_info"][:500] if review_data["Reviewer_info"] else ""
         review_data["Review_time"] = review_data["Review_time"][:100] if review_data["Review_time"] else ""
@@ -229,7 +228,6 @@ def scroll_and_click_more(driver, scrollable_div, existing_google_ids, output_fi
         # Kiểm tra xem có gặp đánh giá đã tồn tại chưa
         if check_for_existing_review(driver, existing_google_ids):
             logger.info("Gặp đánh giá đã tồn tại từ lần crawl trước, dừng cuộn.")
-            # Xử lý batch cuối cùng nếu có
             if new_reviews > last_processed:
                 process_and_save_batch(driver, last_processed, new_reviews, Restaurant_id, existing_reviews, output_file, next_id_ref)
             break
@@ -238,15 +236,13 @@ def scroll_and_click_more(driver, scrollable_div, existing_google_ids, output_fi
             scroll_count += 1
             if scroll_count >= 3 or new_reviews > 2500:
                 logger.info("Đạt giới hạn, dừng cuộn.")
-                # Xử lý batch cuối cùng nếu có
                 if new_reviews > last_processed:
                     process_and_save_batch(driver, last_processed, new_reviews, Restaurant_id, existing_reviews, output_file, next_id_ref)
                 break
         else:
             scroll_count = 0
             logger.info(f"Tải thêm dữ liệu mới. Đánh giá mới: {new_reviews}")
-        
-        # Xử lý batch nếu đạt mốc
+
         while new_reviews >= last_processed + batch_size:
             added = process_and_save_batch(driver, last_processed, last_processed + batch_size, Restaurant_id, existing_reviews, output_file, next_id_ref)
             last_processed += batch_size
@@ -254,7 +250,6 @@ def scroll_and_click_more(driver, scrollable_div, existing_google_ids, output_fi
         last_height = new_height
         reviews_loaded = new_reviews
 
-    # Xử lý batch còn lại nếu có
     if reviews_loaded > last_processed:
         process_and_save_batch(driver, last_processed, reviews_loaded, Restaurant_id, existing_reviews, output_file, next_id_ref)
 
@@ -305,22 +300,18 @@ def convert_review_time(created_time, review_time):
         return None
     if "hour" in review_time.lower() or "minute" in review_time.lower():
         return created_time.date()
-    
-    # Bỏ từ "Edited" nếu có
+
     review_time = re.sub(r'\bEdited\b\s*', '', review_time, flags=re.IGNORECASE)
     
-    # Chuẩn hóa 'a' thành '1' cho các trường hợp 'a day ago', 'a week ago', ...
     review_time = re.sub(r'\ba\b', '1', review_time, flags=re.IGNORECASE)
-    
-    # Biểu thức chính quy để khớp với số lượng và đơn vị thời gian
+
     match = re.match(r"(\d+)\s*(day|week|month|year)s?\s*ago", review_time, re.IGNORECASE)
     if not match:
         logger.warning(f"Không thể phân tích Review_time: {review_time}")
         return None
     
     amount, unit = int(match.group(1)), match.group(2).lower()
-    
-    # Sử dụng relativedelta để tính toán thời gian chính xác
+
     if unit == "day":
         return (created_time - relativedelta.relativedelta(days=amount)).date()
     elif unit == "week":
@@ -427,7 +418,7 @@ def update_reviews_and_save(driver, restaurants_file="restaurants.csv", output_f
         if (i + 1) % batch_size == 0:
             logger.info(f"Đã xử lý {i+1}/{total_restaurants} nhà hàng...")
 
-    logger.info(f"Hoàn thành! Đã thêm {added} đánh giá mới và lưu vào {output_file}.")  # added có thể không chính xác, nhưng vì process trực tiếp, ta có thể track trong process nếu cần
+    logger.info(f"Hoàn thành! Đã thêm {added} đánh giá mới và lưu vào {output_file}.") 
     return added
 
 def main(restaurants_file=r"D:\Nam3_Ky2\DeAnThucHanh\Crawl\Code_Crawl\restaurants.csv", output_file="reviews.csv", batch_size=10, headless=False):
