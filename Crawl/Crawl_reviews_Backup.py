@@ -323,7 +323,7 @@ def convert_review_time(created_time, review_time):
     
     return None
 
-def init_csv(output_file="reviews.csv"):
+def init_csv(output_file="reviews_all.csv"):
     if not os.path.isfile(output_file):
         try:
             with open(output_file, mode="w", newline="", encoding="utf-8-sig") as f:
@@ -361,7 +361,7 @@ def scrape_reviews(driver, wait, Restaurant_id, existing_google_ids, existing_re
     
     return added  
 
-def update_reviews_and_save(driver, restaurants_file="restaurants.csv", output_file="reviews.csv", batch_size=10):
+def update_reviews_and_save(driver, restaurants_file="restaurants.csv", output_file="reviews_all.csv", batch_size=10):
     wait = WebDriverWait(driver, 10)
     
     try:
@@ -425,17 +425,26 @@ def main(restaurants_file=r"D:\Nam3_Ky2\DeAnThucHanh\Crawl\Code_Crawl\restaurant
          output_dir=r"D:\Nam3_Ky2\DeAnThucHanh\Crawl\Data",
          batch_size=10, headless=False):
     
-    output_file = os.path.join(output_dir, "reviews.csv")
+    crawl_date = datetime.now().strftime('%Y-%m-%d')
+    all_file = os.path.join(output_dir, "reviews_all.csv")  # File tổng hợp
+    backup_file = os.path.join(output_dir, f"reviews_backup_{crawl_date}.csv")  # Backup ngày
     start_time = datetime.now()
-    logger.info(f"Bắt đầu crawl đánh giá: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    logger.info(f"Bắt đầu crawl đánh giá ngày {crawl_date}: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
 
     driver = None
     try:
         driver = setup_driver(headless=headless)
-        init_csv(output_file)
+        init_csv(all_file)  # Init file tổng hợp
         logger.info("Bắt đầu cập nhật đánh giá...")
-        added = update_reviews_and_save(driver, restaurants_file, output_file, batch_size)
-        logger.info(f"Hoàn thành cập nhật đánh giá! Đã thêm {added} đánh giá mới.")
+        added = update_reviews_and_save(driver, restaurants_file, all_file, batch_size)
+        
+        # Backup: Copy file all sang backup ngày (chỉ nếu có data mới)
+        if added > 0:
+            df = pd.read_csv(all_file)
+            df.to_csv(backup_file, index=False, encoding="utf-8-sig")
+            logger.info(f"Đã backup {len(df)} reviews vào {backup_file}.")
+        
+        logger.info(f"Hoàn thành cập nhật đánh giá ngày {crawl_date}! Đã thêm {added} đánh giá mới.")
     except (TimeoutException, WebDriverException) as e:
         logger.error(f"Lỗi trong quá trình thực thi: {e}")
         raise

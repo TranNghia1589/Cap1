@@ -323,7 +323,7 @@ def convert_review_time(created_time, review_time):
     
     return None
 
-def init_csv(output_file="reviews.csv"):
+def init_csv(output_file="reviews_all.csv"):
     if not os.path.isfile(output_file):
         try:
             with open(output_file, mode="w", newline="", encoding="utf-8-sig") as f:
@@ -361,7 +361,7 @@ def scrape_reviews(driver, wait, Restaurant_id, existing_google_ids, existing_re
     
     return added  
 
-def update_reviews_and_save(driver, restaurants_file="restaurants.csv", output_file="reviews.csv", batch_size=10):
+def update_reviews_and_save(driver, restaurants_file="restaurants.csv", output_file="reviews_all.csv", batch_size=10):
     wait = WebDriverWait(driver, 10)
     
     try:
@@ -425,8 +425,7 @@ def main(restaurants_file=r"D:\Nam3_Ky2\DeAnThucHanh\Crawl\Code_Crawl\restaurant
          output_dir=r"D:\Nam3_Ky2\DeAnThucHanh\Crawl\Data",
          batch_size=10, headless=False):
     
-    crawl_date = datetime.now().strftime('%Y-%m-%d')
-    output_file = os.path.join(output_dir, f"reviews_{crawl_date}.csv")
+    output_file = os.path.join(output_dir, "reviews_all.csv")
     start_time = datetime.now()
     logger.info(f"Bắt đầu crawl đánh giá: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
 
