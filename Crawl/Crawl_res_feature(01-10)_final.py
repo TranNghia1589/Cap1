@@ -30,7 +30,9 @@ logger = logging.getLogger(__name__)
 
 # Blacklist
 blacklist_res = ["Anna Restaurant", "Suzu home", "Manvar rasoi", "Quán Cây Đa", "Embers & Leaves Restaurant",
-                 "Da Nang Restaurant", "Le Bambino"]  
+                 "Da Nang Restaurant", "Le Bambino", "Cloves Restaurant (Bay Capital Da Nang Hotel)",
+                 "Bê Thui Cô Vân", "Breakfast buffet at Lotus Wine & Dine Restaurant of Royal Lotus Hotel Da Nang",
+                 "Danang local food restaurant","Shilla Noodle"]  
 
 # Định nghĩa các cột trong file CSV
 BASE_FIELDNAMES = [
@@ -388,9 +390,11 @@ def update_details_and_save(driver, output_file="restaurants.csv", batch_size=10
     
     # Đọc tất cả rows từ CSV
     rows = []
+    feature_cols = []
     try:
         with open(output_file, mode="r", encoding="utf-8-sig") as f:
             reader = csv.DictReader(f)
+            feature_cols = [col for col in reader.fieldnames if col not in BASE_FIELDNAMES]
             rows = list(reader)
     except Exception as e:
         logger.error(f"Lỗi khi đọc file CSV {output_file}: {e}")
@@ -409,6 +413,19 @@ def update_details_and_save(driver, output_file="restaurants.csv", batch_size=10
         try:
             driver.get(url)
             wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "h1.DUwDvf")))
+            
+            # Reconstruct feature_type_old from row
+            feature_type_old = {}
+            for col in feature_cols:
+                val = row.get(col, "")
+                if val:
+                    try:
+                        feature_type_old[col] = json.loads(val)
+                    except json.JSONDecodeError:
+                        logger.warning(f"Lỗi parse JSON cho cột {col} ở row {i+1}")
+                        feature_type_old[col] = []
+                else:
+                    feature_type_old[col] = []
             
             data = scrape_restaurant(driver, wait)
             if data:
@@ -429,6 +446,19 @@ def update_details_and_save(driver, output_file="restaurants.csv", batch_size=10
                         has_change = True
                 current_data.update({k: data.get(k, row.get(k, "")) for k in data.keys() if k != "feature_type" and k != "Crawl_date"})
                 
+                # Xử lý feature_type
+                feature_new = data["feature_type"]
+                if feature_new:  # Không rỗng
+                    feature_merged = {**feature_type_old, **feature_new}
+                    if feature_merged != feature_type_old:
+                        has_change = True
+                else:
+                    feature_merged = feature_type_old
+                    if feature_type_old:
+                        logger.info(f"Giữ nguyên features cũ cho nhà hàng: {row.get('Restaurant_name', url)} vì scrape thất bại.")
+                
+                current_data["feature_type"] = feature_merged
+                
                 # Cập nhật Crawl_date nếu có thay đổi, giữ nguyên cũ nếu không
                 if has_change:
                     current_data["Crawl_date"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -437,8 +467,6 @@ def update_details_and_save(driver, output_file="restaurants.csv", batch_size=10
                 else:
                     current_data["Crawl_date"] = row.get("Crawl_date", "")
                     logger.info(f"Không có thay đổi cho nhà hàng: {row.get('Restaurant_name', url)}")
-
-                current_data["feature_type"] = data["feature_type"]
 
                 data_list.append(current_data)
         except (TimeoutException, NoSuchElementException) as e:
